@@ -1,0 +1,27 @@
+/* Alinear el título a la derecha */
+.navbar-header {
+    float: right;
+}
+
+/* Alinear los elementos de la lista a la izquierda y en horizontal */
+.navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-nav > li {
+    float: left;
+}
+
+.navbar-nav > li > a {
+    padding: 15px 20px; /* Espaciado interno de los enlaces */
+}
+
+.navbar-nav > .active > a {
+    background-color: #eee; /* Color de fondo para el ítem activo */
+}
+/*Hecho por Omar Gines :p*/
+
+/*Hasta Aquí :p*/
